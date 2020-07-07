@@ -1,0 +1,492 @@
+@font-face{
+    font-family:"Agatho_-Bold.woff";
+    src:
+    url("font/Agatho_-Bold.woff") format("truetype");
+  }
+  
+  @font-face{
+    font-family:"Agatho_-Light.woff";
+    src:
+    url("font/Agatho_-Light.woff") format("truetype");
+  }
+  
+  @font-face{
+    font-family:"Agatho_-Medium.woff";
+    src:
+    url("font/Agatho_-Medium.woff") format("truetype");
+  }
+  
+  @font-face{
+    font-family:"Agatho_-Narrow.woff";
+    src:
+    url("font/Agatho_-Narrow.woff") format("truetype");
+  }
+  
+  @font-face{
+    font-family:"Agatho_Regular.woff";
+    src:
+    url("font/Agatho_Regular.woff") format("truetype");
+  }
+
+  #DB_etc34{cursor: url(../kym_c/img/mouse.cur), url(../kym_c/img/mouse.png), pointer;}
+
+
+
+
+
+
+#DB_etc34{position:fixed;left:0;top:0;width:100%;height:100vh;overflow:hidden}
+#DB_etc34 .d_container{width:100%;margin:0 auto}
+
+
+#DB_etc34 .btn{position:fixed;z-index:990;right:25px;top:45%}
+#DB_etc34 .btn li{width:10px;height:10px;border-radius:100%;cursor:pointer;margin:10px;background:#fff; position: relative;}
+#DB_etc34 .btn li.on{background:#959595;}
+
+#DB_etc34 .btn li{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size:18px;
+  letter-spacing: 1.5px;}
+
+
+#DB_etc34 .btn li:nth-child(1)::after{content:'ABOUT';  position: fixed;  bottom: 108px;  left:120px; transform:rotate(270deg);}
+#DB_etc34 .btn li:nth-child(2)::after{content:'PORTFOLIO';  position: fixed;  bottom: 130px;  left:140px; transform:rotate(270deg);}
+#DB_etc34 .btn li:nth-child(3)::after{content:'BASIC';  position: fixed;  bottom: 103px;  left:212px; transform:rotate(270deg);}
+
+#DB_etc34 .btn li:nth-child(1):hover::after{border-bottom:1.2px solid #292929;}
+#DB_etc34 .btn li:nth-child(2):hover::after{border-bottom:1.2px solid #292929;}
+#DB_etc34 .btn li:nth-child(3):hover::after{border-bottom:1.2px solid #292929;}
+
+
+
+
+
+
+#DB_etc34 .pages{position:absolute;left:0;top:100%;width:100%;height:100%;overflow:hidden}
+
+#DB_etc34 .pages .d_container{position:relative;height:100%}
+#DB_etc34 .pages .move{position:relative;z-index:10;height:170%;}
+#DB_etc34 .pages .move .objs{position:absolute}
+
+
+
+
+
+
+
+/*          page 1         */
+
+
+#DB_etc34 .p1{top:0;background:#c9cdca;}
+#DB_etc34 .p1 .move .obj1{margin-left:404px;margin-top:-581px;}
+#DB_etc34 .p1 .move .obj2{margin-left:-424px;margin-top:415px;}
+#DB_etc34 .p1 .move .obj3{margin-left:1037px;margin-top:271px;}
+#DB_etc34 .p1 .move .obj4{margin-left:1864px;margin-top:707px;}
+
+
+
+
+.pages.p1>.d_container{width:100%;
+    height: 100vh;
+    position: relative;
+    background: #c9cdca
+  }
+
+.about_logo{ 
+    position: absolute;
+   top:83px; left: 128px;
+   animation: about_logo 3s linear infinite ;
+}
+
+   @keyframes about_logo {
+    0%	{}
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+   }
+  
+
+
+
+
+
+.about_title{position: absolute;}
+
+.about_title1{
+    position: absolute;
+    left: 405px; top:245px;
+    font: 180px "Agatho_-Light.woff"; 
+    color: #292929;}
+
+.about_title2{
+  position: relative;
+  left: 550px; top:390px;
+  font: 180px "Agatho_-Light.woff"; 
+   color: #292929;
+  z-index: 99;
+}
+
+.about_title3{
+  position: absolute;
+  left: 492px; top:540px;
+  font: 180px "Agatho_-Light.woff";
+  color: #292929;
+  z-index: 99;}
+
+.about_con{position: absolute;
+  top:815px; left: 404px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size:16px;
+  margin-bottom:3px;
+}
+
+.about_con>.con1,.con2,.con3{
+  color:#292929;
+  margin-bottom:2px;
+}
+.about_con>.arrow{
+  top:55px;left: 270px;
+  position: absolute;
+  z-index:990;
+}
+
+.about_con>.con4{
+  top:48px;left: 340px;
+  position: absolute;
+  z-index:990;
+}
+
+.about_page{
+  position: absolute;
+  font: 35px "Agatho_-Light.woff"; 
+  color: #292929;
+  top:100px; left: 1703px;
+  margin-top:15px;
+}
+
+.about_slide{
+  transform: rotate(270deg);
+  position: absolute;
+  top:785px; left: 1742px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  color:#292929;
+  font-size:18px;
+  letter-spacing: 1.5px;
+}
+
+.a_slide_arrow{
+  position: absolute;
+  top:845px;
+  left: 1766px;}
+ 
+
+
+.about_line>.left{
+  position: absolute;
+  height: 100vh;
+  border:0.7px solid #959595;
+  top:0;
+  left:310px;
+
+  animation: about_line_left 4.5s linear infinite ;
+}
+
+   @keyframes about_line_left {
+    from {top:-1000px;  left:310px; }
+    to {top:1000px;  left:310px; }
+   }
+
+.about_line>.right{
+  position: absolute;
+  height: 100vh;
+  border:0.7px solid #959595;
+  top:0;
+  right:310px;
+
+  animation: about_line_right 4.5s linear infinite ;
+}
+
+   @keyframes about_line_right {
+    from {top:1000px;  right:310px; }
+    to {top:-1000px; right:310px; }
+   }
+
+
+
+
+
+
+/*          page 2         */
+
+
+#DB_etc34 .p2{ background:#d3dbd1;}
+#DB_etc34 .p2 .move .obj1{margin-left:88px;margin-top:164px;}
+#DB_etc34 .p2 .move .obj2{margin-left:720px;margin-top:79px;}
+#DB_etc34 .p2 .move .obj3{margin-left:1355px;margin-top:164px;}
+
+
+
+.pages.p2>.d_container{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    background: #d3dbd1;}
+  
+  .port_logo{ 
+      position: absolute;
+      top:83px; left: 128px;
+      animation: port_logo 3.5s linear infinite ;
+   }
+      @keyframes port_logo {
+       0%	{}
+       50% {transform: rotate(180deg);}
+       100% {transform: rotate(360deg);}
+      }
+      
+
+
+
+
+
+  
+  .port_title{position: absolute;
+  z-index: 9999;}
+  
+     .port_title>.title1{
+       position: absolute;
+       top:622px;
+      left: 720px;
+      font: 73px "Agatho_-Light.woff"; 
+      color: #292929;
+    }
+  
+  .port_title>.title2{
+    position: absolute;
+      left: 827px;
+      top:693px;
+      font: 73px "Agatho_-Light.woff"; 
+      color: #292929;
+  }
+  
+  .port_con{position: absolute;
+    top:813px; left: 720px;
+    font-family: 'Noto Sans KR', sans-serif;
+     font-weight: 300;
+     font-size:16px;
+     margin-bottom:3px;
+  }
+  
+  .port_con>.con1,.con2,.con3{
+    color:#292929;
+    margin-bottom:2px;
+  }
+  .port_con>.arrow{
+    top:55px;left: 280px;
+    position: absolute;
+    z-index: 990;
+  }
+  .port_con>.con4{
+    top:48px;left: 355px;
+     position: absolute;
+     z-index: 990;
+    }
+  
+  .port_page{
+    position: absolute;
+    top:103px; left: 1713px;
+    font: 35px "Agatho_-Light.woff"; 
+    color: #292929;
+  }
+  .port_slide{
+    transform: rotate(270deg);
+    position: absolute;
+    top:785px; left: 1742px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color:#292929;
+    font-size:18px;
+    letter-spacing: 1.5px;
+  }
+  
+  .p_slide_arrow{
+  position: absolute;
+  top:845px;
+  left: 1766px;}
+  
+    
+  .port_line>.left{
+    position: absolute;
+    height: 100vh;
+    border:0.7px solid #959595;
+    top:0;
+    left:645px;
+
+    animation: port_line_left 4.5s linear infinite ;
+}
+
+   @keyframes port_line_left {
+    from {top:1000px; left:645px; }
+    to {top:-1000px; left:645px; }
+   }
+  
+  .port_line>.right{
+    position: absolute;
+    height: 100vh;
+    border:0.7px solid #959595;
+    top:0;
+    right:645px;
+
+    animation: port_line_right 4.5s linear infinite ;
+  }
+  
+     @keyframes port_line_right {
+      from {top:-1000px; right:645px; }
+      to {top:1000px; right:645px; }
+     }
+  
+  
+  
+  
+
+
+
+/*          page 3        */
+
+
+#DB_etc34 .p3{background:#d4e2e4;}
+#DB_etc34 .p3 .move .obj1{margin-left:404px;margin-top:-581px;}
+#DB_etc34 .p3 .move .obj2{margin-left:-424px;margin-top:415px;}
+#DB_etc34 .p3 .move .obj3{margin-left:1037px;margin-top:271px;}
+#DB_etc34 .p3 .move .obj4{margin-left:1864px;margin-top:707px;}
+
+
+
+.pages.p3>.d_container{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    background: #d4e2e4;
+  overflow: hidden;}
+  
+  .basic_logo{ 
+    position: absolute;
+    top:83px; left: 128px;
+    animation: basic_logo 3.5s linear infinite ;
+  }
+    @keyframes basic_logo {
+     0%	{}
+     50% {transform: rotate(180deg);}
+     100% {transform: rotate(360deg);}
+    }
+  
+  
+
+
+  
+  .basic_title{position: absolute;}
+  
+  .basic_title>.title1{
+    position: absolute;
+    left: 405px; top:245px;
+    font: 180px "Agatho_-Light.woff"; 
+    color: #292929;}
+  
+  .basic_title>.title2{
+    position: relative;
+    left: 680px; top:390px;
+    font: 180px "Agatho_-Light.woff"; 
+    color: #292929;
+  z-index: 99;}
+  
+  .basic_title>.title3{
+    position: relative;
+    left: 492px; top:350px;
+    font: 180px "Agatho_-Light.woff";
+    color: #292929;
+    z-index: 99;}
+  
+  .basic_con{position: absolute;
+   top:815px; left: 404px;
+   font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-size:16px;
+    margin-bottom:3px;
+  }
+  
+  .basic_con>.con1,.con2,.con3{
+    margin-bottom:2px;
+    color:#292929;}
+  .basic_con>.arrow{top:55px;left: 210px;
+  position: absolute;
+  z-index:990;}
+  .basic_con>.con4{
+  top:48px;left: 285px;
+  color:#000;
+   position: absolute;
+   z-index:990;}
+  
+  .basic_page{
+  position: absolute;
+  font: 35px "Agatho_-Light.woff"; 
+  color: #292929;
+  top:100px; left: 1730px;
+  margin-top:15px;}
+  
+  .basic_slide
+  {transform: rotate(90deg);
+  position: absolute;
+  top:838px; left: 1742px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  color:#292929;
+  font-size:18px;
+  letter-spacing: 1.5px;
+  }
+  
+  .b_slide_arrow
+  {position: absolute;
+  top:773px;
+  left: 1766px;}
+  
+  
+      
+  .basic_line>.left{
+    position: absolute;
+    height: 100vh;
+    border:0.7px solid #959595;
+    top:0;
+    left:310px;
+  
+    animation: basic_line_left 4.5s linear infinite ;
+  }
+  
+     @keyframes basic_line_left {
+      from {top:-1000px;  left:310px; }
+      to {top:1000px;  left:310px; }
+     }
+  
+     .basic_line>.right{
+    position: absolute;
+    height: 100vh;
+    border:0.7px solid #959595;
+    top:0;
+    right:0px;
+  
+    animation: basic_line_right 4.5s linear infinite ;
+  }
+  
+     @keyframes basic_line_right {
+      from {top:1000px;  right:310px; }
+      to {top:-1000px; right:310px; }
+     }
+  
+
+
+
+
+
+
+
+
